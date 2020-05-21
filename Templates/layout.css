@@ -1,0 +1,336 @@
+body {
+	background:#fff;
+	margin:0;
+	text-align:center;
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-size:.7em;
+	padding:0;
+	line-height:130%;
+	}
+	
+table {
+padding:0 0 0 10px;
+}
+
+table.collapse td {
+text-align:center;
+	border-bottom:1px dotted #333;}
+
+td {
+	padding:6px 0}
+
+#container {
+	text-align:center;
+	margin:0 auto;
+	width:760px;
+}
+
+#header {
+	height:90px;
+	background:url(../images/header_bg.gif);
+}
+
+#uni_nav {
+	background:#95b764;
+	height:28px;
+}
+
+/* div {
+	border:1px solid #999;
+} */
+
+#uni_nav_left {
+	display:inline;
+	float:left;
+	text-align:left;
+	margin:0 0 0 10px;
+}
+
+#uni_nav_left ul, #uni_nav_right ul {
+	margin:6px 0 0 0;
+	color:#fff;
+	padding:0;
+	list-style:none;
+	font-family:verdana, arial, helvetica, sans-serif;
+}
+
+#uni_nav_left ul li, #uni_nav_right ul li {
+	display:inline;
+	}
+
+
+#uni_nav_left ul li a, #uni_nav_right ul li a {
+	text-decoration:none;
+	color:#fff;
+	}
+	
+#uni_nav_left ul li a:hover, #uni_nav_right ul li a:hover {
+	text-decoration:underline;
+	color:#fff;
+	}
+
+#uni_nav_right {
+	display:inline;
+	float:right;
+	text-align:right;
+	margin:0 10px 0 0;
+}
+
+#uni_nav_right ul {
+	margin:6px 0 0 0;
+	color:#fff;
+	padding:0;
+	list-style:none;
+}
+
+#uni_nav_left ul li {
+	display:inline;
+	}
+
+
+#uni_nav_left ul li a {
+	text-decoration:none;
+	color:#fff;
+	}
+
+#uni_nav_left ul li a:hover {
+	text-decoration:underline;
+	color:#fff;
+	}
+
+#leftcol {
+		float:left;
+		padding:0;
+		margin:4px 10px 0 0;
+		width:134px;
+		border:0;
+		}
+
+
+#navcol {
+	padding:0;
+	margin:0;
+	width:134px;
+	text-align:left;
+	border:1px solid #999;
+	display:block;
+	font-size:10px;
+	font-weight:bold;
+	color:#888;
+	text-indent:4px;
+}
+
+#navcol p {
+	padding:2px 0 0 0;
+	margin:0;
+}
+
+#navcol ul {
+	padding:2px 0 0 0;
+	margin:0 0 12px 0;
+	font-weight:normal;
+	list-style:none;
+	}
+
+#navcol ul li {
+	padding:1px 0;
+	}
+
+#navcol ul li a {
+	color:#888;
+	text-decoration:none;
+	}
+
+#navcol ul li a:hover {
+	text-decoration:underline;
+	}
+
+#midcol, #widecol {
+	float:left;
+	width:360px;
+	text-align:left;
+	display:block;
+	margin:0;
+	height:300px;
+}
+
+#widecol {
+	width:610px;
+}
+
+#hero {
+	display:block;
+	height:190px;
+	margin:0;
+	padding:10px 0 0 0;
+	background:url(../images/hero_006.jpg);
+}
+
+#heroinset {
+	display:block;
+	width:120px;
+	height:180px;
+	margin:0px 0 0 230px;
+	padding:0;
+}
+
+#heroinset h1, #heroinset p {
+	font-size:14px;
+	font-weight:bold;
+	padding:0;
+	margin:0;
+	color:#fff;
+}
+
+#heroinset p {
+	font-size:11px;
+	margin:4px 0 0 0;
+	font-weight:normal;
+}
+
+#rightcol {
+	float:right;
+	width:246px;
+	text-align:left;
+	display:block;
+	margin:0;
+	height:300px;
+}
+
+#calendar {
+	background:#ddd;
+	margin:10px 0 0 0;
+	padding:0 0 4px 0;
+}
+
+#calendar h1 {
+	color:#888;
+	font-size:24px;
+	font-weight:normal;
+	margin:0 0 0 10px;
+	padding:10px 0 12px 0;
+}
+
+#calendar a {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+#calendar a:hover {
+	text-decoration:underline;
+	}
+
+
+table p {
+	color:#888;
+	padding:4px 0 6px 0;
+	margin:0;
+	}
+	
+img {
+	padding:0;
+	margin:5px 0 0 0;
+	border:0;
+	}
+	
+p#copyright {
+	display:block;
+	padding:40px 0 20px 0;
+	font-family:"Trebuchet MS", verdana;
+	font-size:10px;
+	color:#888;
+}
+
+p#copyright a {
+	color:#888;
+	text-decoration:none;
+	}
+
+p#copyright a:hover {
+	text-decoration:underline;
+	}
+	
+#news {
+	display:block;
+	margin:4px 0 0 0;
+	border:1px solid #999;
+	padding:0;	
+}
+
+#news h1, #news p {
+	color:#663366;
+	margin:0 10px 4px 4px;
+}
+
+#news p {
+	padding:0 0 10px 0 ;
+}
+
+#news a {
+	color:#663366;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+#news a:hover {
+	text-decoration:underline;
+	}
+
+#heroinset a {
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+#heroinset a:hover {
+	text-decoration:underline;
+	}
+
+
+#giftaid {
+	margin:10px 0 0 0;
+	padding:6px;
+	display:block;
+	background:#0099cc;
+	text-align:left;
+	text-indent:0;
+}
+
+#giftaid h1, #giftaid p {
+	color:#fff;
+	margin:0 2px 4px 2px;
+}
+
+#giftaid a {
+	color:#fff;
+	margin:0;
+}
+
+#giftaid p {
+	padding:0 0 10px 0 ;
+	font-size:13px;
+	line-height:15px;
+}
+
+h2, h3 {
+	font-weight:bold;
+	font-size:1em;
+	padding:16px 0 0 0 ;
+}
+
+h1 {
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+h1, h2, h3, p {
+margin-left:10px;
+margin-right:10px;
+}
+
+a:link {color:#0099cc;}
+
+h3 {
+color:#666666;
+}

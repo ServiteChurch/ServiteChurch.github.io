@@ -1,0 +1,367 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>Servite Church - Fulham Road</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
+<script type='text/javascript' src='js/knockout-3.0.0.js'></script>
+<script language="javascript">
+<!--
+
+function expand(s)
+{
+  var td = s;
+  var d = td.getElementsByTagName("div").item(0);
+
+  td.className = "menuHover";
+  d.className = "menuHover";
+}
+
+function collapse(s)
+{
+  var td = s;
+  var d = td.getElementsByTagName("div").item(0);
+
+  td.className = "menuNormal";
+  d.className = "menuNormal";
+}
+
+   function NewsletterItem(Date, Name) {
+       var self = this;
+       self.newsDate = Date;
+       self.newsFileName = Name;
+    }
+    
+    function VMNewsletter($parent) {
+        var self = this;
+       
+       self.list = ko.observableArray([]);
+	      
+       $.getJSON("newsletters/contentlist.txt", function(allData) {
+           var mappedList = $.map(allData, function(item) { return new NewsletterItem(item.newsDate,item.newsFileName) });
+           self.list(mappedList);
+             
+      });
+     
+        
+    }
+
+     ko.applyBindings(new VMNewsletter());
+
+-->
+</script>
+</head>
+
+<link rel=Stylesheet href="../Templates/Style.css">
+
+<body>
+<br>
+<center>
+<div style="width: 98%; background-color: white;">
+<div style="width:940px; overflow: auto; text-align:left;" border="0" align="center" id="fill" bgcolor="white">
+<h1>Our Lady of Dolours Servite Church</h1>
+<table width="100%">
+<tr>
+<td>
+264, Fulham Road, London SW10 9EL
+</td>
+<td align=right>Tel: +44 (020) 7352 6965</td>
+</tr>
+</table>
+<img src="banner.jpg" />
+
+<table class="navbar">
+  <tr>
+
+<td class="menuNormal" width="50"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  Home<br />
+  <div class="menuNormal" width="50">
+  <table class="menu" width="50"> 
+    
+    <tr>
+  <td>
+    <a href="home.htm" class="menuitem" >Home</a> 
+  </td>
+  </tr>
+ </table>
+ </div>
+
+ </td>
+
+
+<td class="menuNormal" width="85"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  Mass Times<br />
+  <div class="menuNormal" width="85">
+    <table class="menu" width="85">
+      <tr>
+       <td>
+   	 <a href="masstimes.htm" class="menuitem" >Mass Times</a>
+       </td>
+     </tr>
+   </table>
+  </div>
+</td>
+
+<td class="menuNormal" width="110"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  About the Parish<br />
+  <div class="menuNormal" width="110">
+    <table class="menu" width="110">
+      <tr>
+        <td>
+         <a href="abouttheparish.htm" class="menuitem">About the Parish</a>
+        </td>
+      </tr>
+      <tr>
+      <td>
+         <a href="servitefriars.htm" class="menuitem">Servite Friars</a>
+       </td>
+     </tr>
+     <tr>
+       <td>
+         <a href="parishhistory.htm" class="menuitem">Parish History</a>
+       </td>
+     </tr>
+     <tr>
+      <td>
+        <a href="parishtoday.htm" class="menuitem">Parish Today</a>
+      </td>
+     </tr>
+   </table>
+  </div>
+</td>
+
+<td class="menuNormal" width="120"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  About the Church<br />
+  <div class="menuNormal" width="120">
+    <table class="menu" width="120">
+      <tr>
+       <td>
+	 <a href="aboutthechurch.htm" class="menuitem">About the Church</a> 
+       </td>
+      </tr>
+      <tr>
+       <td>
+    	 <a href="tourofchurch.htm" class="menuitem">A Tour of the Church</a> 
+       </td>
+      </tr>
+      <tr>
+       <td>
+         <a href="renovations.htm" class="menuitem">Renovations</a>
+       </td>
+      </tr>
+      <tr>
+       <td>
+    	 <a href="photogallery.htm" class="menuitem">Photo Gallery</a>
+       </td>
+      </tr>
+    </table>
+  </div>
+</td>
+
+<td class="menuNormal" width="95"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  Parish Groups<br />
+  <div class="menuNormal" width="95">
+    <table class="menu" width="95">
+     <tr>
+       <td>
+         <a href="parishteam.htm" class="menuitem">Parish Team</a>
+       </td>
+     </tr>
+     <tr>
+      <td>
+        <a href="parishgroups.htm" class="menuitem">Parish Groups</a>
+      </td>
+     </tr>
+   </table>
+  </div>
+</td>
+
+
+<td class="menuNormal" width="110"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  News & Events<br />
+  <div class="menuNormal" width="110">
+    <table class="menu" width="110">
+      <tr>
+       <td>
+         <a href="newsnevents.htm" class="menuitem">News & Events</a>
+       </td>
+     </tr>
+     <tr>
+       <td>
+         <a href="newsletters.htm" class="menuitem">Newsletters</a>
+       </td>
+     </tr>
+     <tr>
+       <td>
+         <a href="specialevents.htm" class="menuitem">Special Events</a>
+       </td>
+     </tr>
+   </table>
+ </div>
+ </td>
+
+<td class="menuNormal" width="85"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  Sacraments<br />
+  <div class="menuNormal" width="85">
+    <table class="menu" width="85">
+      <tr>
+       <td>
+         <a href="sacraments.htm" class="menuitem" >Sacraments</a>
+       </td>
+     </tr>
+   </table>
+ </div>
+</td>
+
+<td class="menuNormal" width="90"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  St Peregrine<br />
+  <div class="menuNormal" width="90">
+    <table class="menu" width="90">
+     <tr>
+       <td>
+	 <a href="stperegrine.htmm" class="menuitem">St Peregrine</a> 
+       </td>
+      </tr>
+   </table>
+ </div>
+</td>
+
+
+
+<td class="menuNormal" width="120"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  Where to Find Us<br />
+  <div class="menuNormal" width="120">
+    <table class="menu" width="120">
+      <tr>
+       <td>
+         <a href="http://www.streetmap.co.uk/newmap.srf?x=526186&amp;y=177741&amp;z=0&amp;sv=SW10+9EL&amp;st=2&amp;pc=SW10+9EL&amp;mapp=newmap.srf&amp;searchp=newsearch.srf" title="location map" target="_blank" class="menuitem" >Where to Find Us</a>
+       </td>
+     </tr>
+   </table>
+ </div>
+</td>
+
+<td class="menuNormal" width="80"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  Contact Us<br />
+  <div class="menuNormal" width="80">
+    <table class="menu" width="90">
+      <tr>
+       <td>
+         <a href="contact.htm" class="menuitem" >Contact Details</a>
+       </td>
+      </tr>
+      <tr>
+       <td>
+         <a href="mailto:fulhamroad@rcdow.org.uk" class="menuitem" >E-mail Us</a>
+       </td>
+     </tr>
+   </table>
+ </div>
+</td>
+
+<td class="menuNormal" width="50"
+  onmouseover="expand(this);"
+  onmouseout="collapse(this);">
+  Links<br />
+  <div class="menuNormal" width="50">
+  <table class="menu" width="45">
+      <tr>
+       <td>
+         <a href="links.htm" class="menuitem" >Links</a>
+       </td>
+     </tr>
+   </table>
+ </div>
+</td>
+
+</tr>
+</table>
+
+<table style="position: relative; top: inherit; left:inherit; z-index: 5;" id="links"> 
+<tr height="10"><td></td></tr>
+<tr>
+<td width="120px" valign="top">
+<div id="links" >
+
+<table style="font-size:13px;" cellpadding="2">
+<tr><td>
+<tr><td>
+<tr><td>
+  <a href="home.htm">Home</a>
+</td><tr><td>
+  <a href="masstimes.htm">Mass Times</a>
+</td><tr><td>
+  <a href="abouttheparish.htm">About the Parish </a>
+</td><tr><td>
+  <a href="aboutthechurch.htm">About the Church</a>
+</td><tr><td>
+  <a href="parishgroups.htm">Parish Groups</a>
+</td><tr><td>
+  <a href="newsnevents.htm">News & Events</a>
+</td><tr><td>
+  <a href="sacraments.htm">Sacraments</a>
+</td><tr><td>
+  <a href="stperegrine.htm">St Peregrine</a>
+</td><tr><td>
+  <a href="http://www.streetmap.co.uk/newmap.srf?x=526186&amp;y=177741&amp;z=0&amp;sv=SW10+9EL&amp;st=2&amp;pc=SW10+9EL&amp;mapp=newmap.srf&amp;searchp=newsearch.srf" title="location map" target="_blank">Where to Find Us</a><br>
+</td><tr><td>
+  <a href="contact.htm">Contact Us</a>
+</td><tr><td>
+  <a href="links.htm">Links</a>
+  </td></tr>
+</table>
+</div>
+</td>
+
+<td width="820px" valign="top" style="font-family:Arial; font-size:15px">
+<!-- InstanceBeginEditable name="fill" -->
+<p><br>
+	<h1>Newsletters</h1>
+	<p>Missed a newsletter? On-line copies of recent newsletters can be found below:</p>
+	<div data-bind="foreach: list">
+	<p><a data-bind="attr: { href: 'newsletters/' + newsFileName + '.pdf' } text: newsDate" /></a></p>
+	</div>
+	
+	
+</p>
+</p>
+</p>
+<p>&nbsp; </p>
+<!-- InstanceEndEditable -->
+</td>
+</tr>
+</td>
+</tr>
+
+</table>
+<br />
+<br />
+<center>
+<b>© Copyright 2011 Servite Church</b>
+<br>
+<br><br>
+</div>
+</center>
+</center>
+</body>
+</html>

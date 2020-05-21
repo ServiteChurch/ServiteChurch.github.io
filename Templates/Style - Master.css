@@ -1,0 +1,78 @@
+﻿
+h1 {font-family: arial;
+font-size: 18pt; color: #000; line-height: 10pt;
+}
+body {font-family: arial; color: #000; font-size: 9pt; background-color: #F1F1F1;}
+#fill {font-family: arial; color: #000; font-size: 9pt;}
+#links a:visited, a:link, a:active {font-weight: bold; color: #999999; line-height: 11pt; text-decoration: none;}
+#links a:hover {font-weight: bold; color: #000;}
+/*a, a:link, a:visited{color:  #7c5b31; text-decoration: none; } */
+/*a:hover, a:active, a:focus{color: #7c5b31; text-decoration: underline; background-color: White} */
+/* a, a:link, a:visited{color:  grey; text-decoration: none; }  */
+a:hover, a:active, a:focus{color: black; text-decoration: underline; background-color: White}
+
+img {border: 0;}
+
+table{border-collapse:collapse;border-spacing:0;}
+
+table.navbar
+{font-size: 9pt;
+margin: 0px;
+padding: 0px; 
+border: black ;
+z-index: 200;
+font-weight: bold;}
+
+table.menu
+{font-size: 9pt;
+margin: 0px;
+padding: 0px;
+font-weight: bold; }
+
+td.menuNormal  /* Menu bar when not selected */
+{padding-top:10px;
+ color: White; /* Text colour */
+ font-weight: bold;
+text-align: center;  
+/*  text-indent: 10px; */
+ vertical-align: top; 
+ background-color: black ;} 
+
+td.menuHover /* Menu bar when it IS selected */
+{padding-top: 10px;
+ border: 1px  #222222;
+ color: white ; /* Text colour  */
+ font-weight: bold;
+ vertical-align: top;
+ z-index: 200;
+/*remove the following line for drop-down menu with images*/
+ background-color:#BA9F69 ;} /* Background colour of selected item - Gold */
+
+div.menuEmpty {color: #fefefe;background-color: #cdcdcd;border: 0px; }
+
+div.menuNormal
+{display: none;}
+
+div.menuHover  /* Menu items background */
+{border: 1px solid #222222 ;  /* border of drop down list - fine black */
+ color:#222222;
+ z-index: 200;
+ display: inline;
+ position: absolute;
+ background-color:White;}
+
+ a.menuitem
+ {
+ 	background-color:White;
+ 	color: #222222; /* #222222 = black */
+ }
+ 
+a.menuitem:hover
+{
+background-color:#BA9F69 ; /* gold back ground colour of selected item in drop down list */
+color: White;
+text-decoration: none;
+}
+
+ul.dropdown{background-color: White}
+
