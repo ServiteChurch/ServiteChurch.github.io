@@ -30,8 +30,14 @@ $(function(){
 
   content.style.display = "none";
   $("#main").load("../common/main.htm", function() {
+    var placedContent = document.getElementById("placedContent");
+    if(typeof(placedContent) == 'undefined' || placedContent == null){
+     content.style.display = "block";
+     return false;
+   }
+
     $('#placedContent').append($("#content"));
-    document.getElementById("placedContent").style.display = "block";
+    placedContent.style.display = "block";
     content.style.display = "block";
   }); 
 });
