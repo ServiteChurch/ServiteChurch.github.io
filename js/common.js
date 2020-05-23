@@ -16,12 +16,36 @@ function collapse(s)
     d.className = "menuNormal";
 }
 
+// initial function called when document loaded to load in common banner, menu etc
 $(function(){
-  document.getElementById("content").style.display = "none";
+  var content = document.getElementById("content");
+  if(typeof(content) == 'undefined' || content == null){
+     return false;
+   }
+
+   var main = document.getElementById("main");
+   if(typeof(main) == 'undefined' || main == null){
+     return false;
+   }
+
+  content.style.display = "none";
   $("#main").load("../common/main.htm", function() {
     $('#placedContent').append($("#content"));
     document.getElementById("placedContent").style.display = "block";
-    document.getElementById("content").style.display = "block";
+    content.style.display = "block";
   }); 
 });
 
+function SetupSlideshow()
+{   
+    $(window).load(function() {
+    $('#slider').nivoSlider({ controlNavThumbs: true });
+    });
+
+    $("#content").on('click', 'a.playpause', function(){
+        var vars = $('#slider').data('nivo:vars');
+        vars.stop = !vars.stop;
+        position = vars.stop ? "0" : "-20px 0";
+        document.getElementById("playpause").style.backgroundPosition = position;
+    });
+}
