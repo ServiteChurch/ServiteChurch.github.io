@@ -46,7 +46,6 @@ Supports Thumbs: true
 	width: 10%;
 	height: 95%; 
 	overflow-y: scroll;
-	// overflow-x: scroll;
 	text-align: center;
 	padding: 5px 0;
 	border-top: 1px solid #333;
@@ -58,7 +57,6 @@ Supports Thumbs: true
 	background: -ms-linear-gradient(top, #565656 0%,#333333 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #565656 0%,#333333 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565656', endColorstr='#333333',GradientType=0 ); /* IE6-9 */
-	opacity: 0.5;
 	-webkit-transition: all 200ms ease-in-out;
 	-moz-transition: all 200ms ease-in-out;
 	-o-transition: all 200ms ease-in-out;
