@@ -15,24 +15,22 @@
             The Parish of Our Lady of  Dolours is part of the Westminster RC Diocese and in the pastoral care of the  Servite Friars. <br>
             Welcome to our website, we hope you enjoy your visit
         </h5>
+        <br />
+        <div id="showdownContent"></div>
+        <br />
         <span style="font-weight: bold; color: #FF0000">
-            <h4>BREAKING NEWS: Masses to resume Sunday 5th July</h4>
+            <h4>Coronavirus: No Masses and Services until Further Notice</h4>
         </span>
 
         <span style="color: #FF0000">
             <p>
-                Following finalisation of guidelines from the diocese and the recent easing of lockdown restrictions, it has been decided that some Masses will resume on
-                <strong>Sunday 5th July.</strong> The diocese has issued <a href="https://www.youtube.com/watch?v=CLsyL5yggVI&feature=youtu.be">this video</a> giving instructions to parishoners
-                on how Masses will be conducted.
-            </p>
-            <p>
-                We have yet to make a decision as to which Masses will be celebrated and this decision is dependent on the number of volunteers we get to help with
-                stewarding and other logistics.
-                <strong>We desperately need volunteers!</strong> Both for masses and for private prayer. If any one can help with this please ring the Priory (+44(0) 207 352 6965) or put a message through the letterbox. It is suggested that stewards should be under 70 years of age.
-            </p>
-            <p>
                 The church is currently open for private prayers every day between <strong>10am and 12.30 pm.</strong>
                 Strict social distancing will apply. Please see <a href="socialdistancing.htm">here</a> for details.
+            </p><p>
+                The goverment has announced widespread easing of lockdown restrictions, effective from the <strong>4th July</strong> and this
+                easing applies to gatherings for Mass. While we are all keen to see the return of regular Masses as soon as possible,
+                the logistical problems are involved are difficult.
+                We are working hard behind the scenes, and are waiting on guidelines from the Diocese and so we cannot say exactly when, on or after this date, Masses will resume.
             </p><p>
 
                 Please check our website for <a href=news.htm>updates</a> and if you have any queries please contact us.
@@ -46,23 +44,15 @@
             </p>
         </span>
         <h5>
-             If any one can help with this please ring the Priory (+44(0) 207 352 6965)nor put a message through the letterbox. It is suggested that stewards should be under 70 years of age.
+            <strong>Volunteers needed!</strong>It is necessary to have two stewards at the church during the time of private prayer. If any one can help with this please ring the Priory (+44(0) 207 352 6965)nor put a message through the letterbox. It is suggested that stewards should be under 70 years of age.
         </h5>
         <!-- InstanceEndEditable -->
     </div>
 
     <script type="text/javascript">
         var converter = new showdown.Converter();
-        var markdown = 'This is the first paragraph. \n\
-\n\
-<font size="1" color="#FF0000">And this is the 2nd paragraph</font> \n\
-\n\
-and this is the 3rd paragraph ';
+        html = converter.makeHtml('# hello, markdown!');
 
-
-        html = converter.makeHtml(markdown);
-        // alert(html);
-        document.getElementById("showdownContent").innerHTML = html;
     </script>
 </body>
 </html>
