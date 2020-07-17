@@ -16,6 +16,28 @@ function collapse(s)
     d.className = "menuNormal";
 }
 
+function loadmarkdown(contenturl, divelement)
+{
+    var converter = new showdown.Converter(); 
+    $.get(contenturl, function(response) {
+         // alert(response);
+         html = converter.makeHtml(response);
+        document.getElementById(divelement).innerHTML = html;
+    }); 
+}
+
+function loadJsonFile(jsonURL)
+{
+    // var json = $.getJSON({url:jsonURL, async:false});
+    var json = $.ajax({dataType: "jsonp", url:jsonURL, async:false});
+  
+    console.log(json.responseText);
+    var data = eval("(" +json.responseText + ")");
+    return data;
+}
+
+
+
 // initial function called when document loaded to load in common banner, menu etc
 $(function(){
   var content = document.getElementById("content");

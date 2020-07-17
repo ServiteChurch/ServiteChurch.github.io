@@ -71,6 +71,12 @@ div.menuHover  /* Menu items background */
  position: absolute;
  background-color:White;}
 
+div.headline /* banner headline on home page */
+{
+    font-weight: bold; 
+    color: #FF0000;
+}
+
  a.menuitem
  {
  	background-color:White;

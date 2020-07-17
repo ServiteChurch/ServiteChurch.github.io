@@ -15,9 +15,11 @@
             The Parish of Our Lady of  Dolours is part of the Westminster RC Diocese and in the pastoral care of the  Servite Friars. <br>
             Welcome to our website, we hope you enjoy your visit
         </h5>
-        <span style="font-weight: bold; color: #FF0000">
-            <h4>BREAKING NEWS: Masses will resume on Saturday 4th July. Fewer masses than normal will be celebrated and strict <a href="socialdistancing.htm">social distancing</a> guidelines wil apply. See <a href="masstimes.htm">here</a> for times and details.</h4>
-        </span>
+     <!--   <span style="font-weight: bold; color: #FF0000"> -->
+            <div id="headline" class="headline"></div>
+         <!--   <h4>BREAKING NEWS: Masses will resume on Saturday 4th July. Fewer masses than normal will be celebrated and strict <a href="socialdistancing.htm">social distancing</a> guidelines wil apply. See <a href="masstimes.htm">here</a> for times and details.</h4>
+        -->
+        <!--    </span> -->
 
         <center>
             <span style="font-weight: bold; color: #0000FF">
@@ -80,17 +82,9 @@
 </div>
 
     <script type="text/javascript">
-        var converter = new showdown.Converter();
-        var markdown = 'This is the first paragraph. \n\
-\n\
-<font size="1" color="#FF0000">And this is the 2nd paragraph</font> \n\
-\n\
-and this is the 3rd paragraph ';
-
-
-        html = converter.makeHtml(markdown);
-        // alert(html);
-        document.getElementById("showdownContent").innerHTML = html;
+        $(function(){
+           loadmarkdown('../content/headline.md', 'headline');
+        });
     </script>
 </body>
 </html>

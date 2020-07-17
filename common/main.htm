@@ -1,3 +1,4 @@
+<script src="../js/showdown.js" language="javascript"></script>
 <br>
 <center>
     <div style="width: 98%; background-color: white;">
@@ -265,7 +266,13 @@
                 <tr>
                     <td width="120px" valign="top">
                         <table class="banner" cellpadding="2">
-                            <tr><td>
+
+                            <tr>
+                                <td>
+                                    <div id="banner"></div>
+                                </td>
+                            </tr>
+                            <!-- <tr><td>
                             <tr>
                                 <td>
                                     <span style="font-weight: bold;  font-size: smaller; color: #FF0000" ;>
@@ -273,13 +280,13 @@
                                     </span>
                                 </td>
                             <tr>
-                           <!-- <tr>
+                           <tr>
                                 <td>
                                     <span style="font-weight: bold;  font-size: smaller; color: #FF0000" ;>
                                         <p>The church will now be open daily for private prayer between <strong>10am and 12.30pm, where there are no masses.</strong>. See <a href="socialdistancing.htm">here</a> for details.</p>
                                     </span>
                                 </td> 
-                            <tr> -->
+                            <tr>
                                 <td>
                                     <a href="../pages/150Anniv.htm"><img src="../images/150AnnivLogo.jpg" alt="150thAnniversary" /></a>
                                 </td>
@@ -304,7 +311,7 @@
                                         <a href="../documents/CardinalVNicholsLetter25Jun2020.pdf">A Letter from Cardinal Vincent Nichols regarding the easing of lockdown restrictions</a>
                                     </p>
                                 </td>
-                            </tr>
+                            </tr> -->
 
                         </table>                    
                     </td>
@@ -325,3 +332,8 @@
         </div>
     </div>
 </center>
+<script type="text/javascript">
+    $(function(){
+       loadmarkdown('../content/banner.md', 'banner');
+    });
+</script>

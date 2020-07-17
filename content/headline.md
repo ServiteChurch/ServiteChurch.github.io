@@ -1,0 +1,1 @@
+#### BREAKING NEWS: Masses have resumed since Saturday 4th July. Fewer masses than normal will be celebrated and strict [social distancing](socialdistancing.htm) guidelines wil apply. See [here](masstimes.htm) for times and details.
