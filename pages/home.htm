@@ -83,7 +83,11 @@
 
     <script type="text/javascript">
         $(function(){
-           loadmarkdown('../content/headline.md', 'headline');
+           // loadmarkdown('../content/headline.md', 'headline');
+           headline.Listen(function(data){
+              console.log('home content got data value ' + data);
+              showmarkdown(data, 'headline');
+	       });
         });
     </script>
 </body>
