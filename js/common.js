@@ -79,7 +79,7 @@ function FormatDate(date)
     var dom = date.getDate();
     // var dom = date.toLocaleString('default', { day: '2-digit' });
     var domlastDigit = dom % 10;
-    var domSuffix = domlastDigit == 1 ? "st" : (domlastDigit == 2 ? "nd" : (domlastDigit == 3 ? "rd" : "th"));
+    var domSuffix = dom > 3 && dom < 20 ? "th" : (domlastDigit == 1 ? "st" : (domlastDigit == 2 ? "nd" : (domlastDigit == 3 ? "rd" : "th")));
     var month = date.toLocaleString('default', { month: 'long' });
     return dom + domSuffix + " " +  month + " " + date.getFullYear();
 }
