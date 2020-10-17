@@ -117,18 +117,22 @@ var newsletters = new ContentManager('../documents/newsletters/contentlist.txt',
 function loadmainContent()
 {
     headline.Listen(function(data){
-         console.log('maincontent got data' + data);
+         // console.log('maincontent got data' + data);
          showmarkdown(data, 'banner');
 	});
 
     newsletters.Listen(function(data){
-        console.log('got JSON data' + data);
+        // console.log('got JSON data' + data);
         var latestHtml = document.getElementById('latestNewsletter').innerHTML;
         latestHtml = latestHtml.replace('%LATEST%', data[0].newsFileName);
         document.getElementById('latestNewsletter').innerHTML = latestHtml;
 	});
 }
 
+$.ajaxSetup ({
+    // Disable caching of AJAX responses
+    cache: false
+});
 
 // initial function called when document loaded to load in common banner, menu etc
 $(function(){

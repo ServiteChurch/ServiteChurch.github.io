@@ -3,9 +3,9 @@
 {"newsDate":"2020-05-20T00:00:00Z","newsFileName":"Mess%20pentecost%20May%2020", "chris":true},
 {"newsDate":"2020-05-17T00:00:00Z","newsFileName":"Message%20May%202020", "chris":true},
 {"newsDate":"2020-05-01T00:00:00Z","newsFileName":"Lock%20down%20mess%201%20May%2020", "chris":true},
+{"newsDate":"2020-10-18T00:00:00Z","newsFileName":"18Oct2020"},
 {"newsDate":"2020-10-11T00:00:00Z","newsFileName":"11Oct2020"},
 {"newsDate":"2020-10-04T00:00:00Z","newsFileName":"04Oct2020"},
 {"newsDate":"2020-09-27T00:00:00Z","newsFileName":"27Sep2020"},
 {"newsDate":"2020-09-20T00:00:00Z","newsFileName":"20Sep2020"},
-{"newsDate":"2020-09-13T00:00:00Z","newsFileName":"13Sep2020"},
-{"newsDate":"2020-09-06T00:00:00Z","newsFileName":"06Sep2020"}]
+{"newsDate":"2020-09-13T00:00:00Z","newsFileName":"13Sep2020"}]
