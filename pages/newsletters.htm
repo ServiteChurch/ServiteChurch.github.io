@@ -23,11 +23,11 @@
 		<div id="newsletters" style="display:none">
 			<p><a href="../documents/newsletters/%NewsFileName%.pdf">%NewsDate%</a></p>
 		</div>
-		<p>Below are messages from Fr Chris pertaining to the lockdown for the time when there were no newsletters:</p>
+		<!-- <p>Below are messages from Fr Chris pertaining to the lockdown for the time when there were no newsletters:</p>
 		<br />
 		<div id="frchris" style="display:none">
 			<p><a href="../documents/frchris/%NewsFileName%.pdf">%NewsDate%</a></p>
-		</div>
+		</div> -->
 		<!--	<p><a href="../documents/newsletters/22Mar2020.pdf">22 Mar 2020</a></p>
 		<p><a href="../documents/newsletters/15Mar2020.pdf">15 Mar 2020</a></p>
 		<p><a href="../documents/newsletters/08Mar2020.pdf">08 Mar 2020</a></p>
@@ -54,7 +54,7 @@
 
 	$(function(){
 	   newsletters.Listen(function(content) {
-	        RenderNewsletters('frchris', content.filter(function(item) { return item.chris; }));
+	        // RenderNewsletters('frchris', content.filter(function(item) { return item.chris; }));
 	        RenderNewsletters('newsletters', content.filter(function(item) { return !item.chris; }));
 	     });
 	});
