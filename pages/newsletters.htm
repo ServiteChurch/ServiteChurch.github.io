@@ -55,7 +55,7 @@
 	$(function(){
 	   newsletters.Listen(function(content) {
 	        // RenderNewsletters('frchris', content.filter(function(item) { return item.chris; }));
-	        RenderNewsletters('newsletters', content.filter(function(item) { return !item.chris; }));
+	        RenderNewsletters('newsletters', content);
 	     });
 	});
 </script>

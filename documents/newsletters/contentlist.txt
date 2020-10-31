@@ -1,4 +1,5 @@
-[{"newsDate":"2020-10-18T00:00:00Z","newsFileName":"18Oct2020"},
+[{"newsDate":"2020-10-25T00:00:00Z","newsFileName":"25Oct2020"},
+{"newsDate":"2020-10-18T00:00:00Z","newsFileName":"18Oct2020"},
 {"newsDate":"2020-10-11T00:00:00Z","newsFileName":"11Oct2020"},
 {"newsDate":"2020-10-04T00:00:00Z","newsFileName":"04Oct2020"},
 {"newsDate":"2020-09-27T00:00:00Z","newsFileName":"27Sep2020"},
