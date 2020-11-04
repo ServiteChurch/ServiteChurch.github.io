@@ -1,1 +1,1 @@
-#### Masses are taking place however fewer masses than normal will be celebrated and strict [social distancing](socialdistancing.htm) guidelines wil apply. See [here](masstimes.htm) for times and details.
+#### Due to the nationwide lockdown coming in force from Thursday 5th November, masses have been suspended until further notice. The church will be open for private prayer. See [here](../pages/masstimes.htm) for times and details.
