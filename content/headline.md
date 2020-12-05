@@ -1,1 +1,1 @@
-#### Due to the nationwide lockdown coming in force from Thursday 5th November, masses have been suspended until further notice. The church will be open for private prayer. See [here](../pages/masstimes.htm) for times and details.
+#### With the end of lockdown in England, masses will resume from **Saturday 5th December.** Note times has changed slightly from the Summer. See [here](../pages/masstimes.htm) for times and details AND Christmas Mass information.
