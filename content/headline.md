@@ -1,1 +1,1 @@
-#### With the end of lockdown in England, masses will resume from **Saturday 5th December.** Note times has changed slightly from the Summer. See [here](../pages/masstimes.htm) for times and details AND Christmas Mass information.
+#### With the end of lockdown in England, masses will resume from **Saturday 5th December.** Note times has changed slightly from the Summer. See [here](../pages/masstimes.htm) for times and details.
