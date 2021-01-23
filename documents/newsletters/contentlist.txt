@@ -1,7 +1,6 @@
-[{"newsDate":"2021-01-17T00:00:00Z","newsFileName":"17Jan2021"},
+[{"newsDate":"2021-01-24T00:00:00Z","newsFileName":"24Jan2021"},
+{"newsDate":"2021-01-17T00:00:00Z","newsFileName":"17Jan2021"},
 {"newsDate":"2021-01-10T00:00:00Z","newsFileName":"10Jan2021"},
 {"newsDate":"2021-01-03T00:00:00Z","newsFileName":"03Jan2021"},
 {"newsDate":"2020-12-27T00:00:00Z","newsFileName":"27Dec2020"},
-{"newsDate":"2020-12-20T00:00:00Z","newsFileName":"20Dec2020"},
-{"newsDate":"2020-12-13T00:00:00Z","newsFileName":"13Dec2020"},
-{"newsDate":"2020-12-06T00:00:00Z","newsFileName":"06Dec2020"}]
+{"newsDate":"2020-12-20T00:00:00Z","newsFileName":"20Dec2020"}]
