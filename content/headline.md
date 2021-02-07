@@ -1,1 +1,1 @@
-#### With the end of lockdown in England, masses will resume from **Saturday 5th December.** Note times has changed slightly from the Summer. See [here](../pages/masstimes.htm) for times and details.
+#### Despite the current lockdown in force in England, masses are going ahead on a reduced schedule. See [here](../pages/masstimes.htm) for times and details. This information is current as of 7th Feb 2021. 
