@@ -1,1 +1,1 @@
-#### Despite the current lockdown in force in England, masses are going ahead on a reduced schedule. See [here](../pages/masstimes.htm) for times and details. This information is current as of 7th Feb 2021. 
+#### Despite the current lockdown in force in England, masses are going ahead on a reduced schedule. See [here](../pages/masstimes.htm) for times and details. This information is current as of 12th Feb 2021. 
