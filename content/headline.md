@@ -1,1 +1,1 @@
-#### Despite the current lockdown in force in England, masses are going ahead on a reduced schedule. See [here](../pages/masstimes.htm?refresh=y) for times and details. This information is current as of 26th March 2021. No booking is needed for Holy Week services.
+#### Despite the current lockdown in force in England, masses are going ahead on a reduced schedule. See [here](../pages/masstimes.htm?refresh=y) for times and details. This information is current as of 9th April 2021.
