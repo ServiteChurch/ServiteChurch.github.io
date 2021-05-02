@@ -264,7 +264,7 @@
             <table style="position: relative; top: inherit; left:inherit; z-index: 5;" id="leftBanner">
                 <tr height="10"><td></td></tr>
                 <tr>
-                    <td width="120px" valign="top">
+                    <td width="180px" valign="top">
                         <table class="banner" cellpadding="2">
 
                             <tr>
@@ -288,7 +288,9 @@
          </td> -->
                             <tr>
                                 <td>
+                                    <div id="specialMessage">
                                     <a href="../pages/150Anniv.htm"><img src="../images/150AnnivLogo.jpg" alt="150thAnniversary" /></a>
+                                        </div>
                                 </td>
                             </tr>
                             <!--<tr>
@@ -360,7 +362,13 @@
     </div>
 </center>
 <script type="text/javascript">
- //   $(function(){
-  //     loadmarkdown('../content/banner.md', 'banner');
-  //  }); 
+    $(function () {
+        url = window.location.href;
+        url = url.substring(url.lastIndexOf("/") + 1);
+        if (url == 'home.htm' || url == 'masstimes.htm?refresh=y' || url == 'masstimes.htm')
+        {
+            document.getElementById("specialMessage").innerHTML = '<img src="../images/SpecialMessage.jpg" />';
+        }
+        
+    }); 
 </script>
