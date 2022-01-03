@@ -1,1 +1,1 @@
-#### There is a reduced schedule of masses, due to the extra effort required to maintain safety due to the pandemic. See [here](../pages/masstimes.htm?refresh=y) for times and details. This information is current as of 22nd December 2021.
+#### Normal masses have resumed. Please note that times are slightly different to those prior to the pandemic. See [here](../pages/masstimes.htm?refresh=y) for times and details. This information is current as of 3rd January 2022.
