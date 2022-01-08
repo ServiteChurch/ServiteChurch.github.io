@@ -1,8 +1,6 @@
-[{"newsDate":"2022-01-02T00:00:00Z","newsFileName":"02Jan2022"},
+[{"newsDate":"2022-01-09T00:00:00Z","newsFileName":"09Jan2022"},
+{"newsDate":"2022-01-02T00:00:00Z","newsFileName":"02Jan2022"},
 {"newsDate":"2021-12-26T00:00:00Z","newsFileName":"26Dec2021"},
 {"newsDate":"2021-12-19T00:00:00Z","newsFileName":"19Dec2021"},
 {"newsDate":"2021-12-12T00:00:00Z","newsFileName":"12Dec2021"},
-{"newsDate":"2021-12-05T00:00:00Z","newsFileName":"05Dec2021"},
-{"newsDate":"2021-11-28T00:00:00Z","newsFileName":"28Nov2021"},
-{"newsDate":"2021-11-14T00:00:00Z","newsFileName":"14Nov2021"},
-{"newsDate":"2021-11-07T00:00:00Z","newsFileName":"07Nov2021"}]
+{"newsDate":"2021-12-05T00:00:00Z","newsFileName":"05Dec2021"}]
