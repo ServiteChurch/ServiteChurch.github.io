@@ -1,1 +1,2 @@
 #### Normal masses have resumed. Please note that times are slightly different to those prior to the pandemic. See [here](../pages/masstimes.htm?refresh=y) for times and details. This information is current as of 3rd January 2022.
+#### We are sorry that due to unforeseen circumstances we have had to cancel the first holy communion meeting scheduled for Tuesday 1st February 2022 at 7pm. Children’s 3rd Session is on Sunday 6th February at 9am in the school Hall.
