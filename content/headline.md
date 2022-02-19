@@ -1,1 +1,1 @@
-#### Normal masses have resumed. Please note that times are slightly different to those prior to the pandemic. See [here](../pages/masstimes.htm?refresh=y) for times and details. This information is current as of 3rd January 2022.
+#### Normal masses have resumed. Please note that times are slightly different to those prior to the pandemic. See [here](../pages/masstimes.htm?refresh=y) for times and details. This information is current as of 19th February 2022.
