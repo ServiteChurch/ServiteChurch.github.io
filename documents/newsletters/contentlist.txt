@@ -1,4 +1,5 @@
-[{"newsDate":"2022-07-24T00:00:00Z","newsFileName":"24Jul2022"},
+[{"newsDate":"2022-07-31T00:00:00Z","newsFileName":"31Jul2022"},
+{"newsDate":"2022-07-24T00:00:00Z","newsFileName":"24Jul2022"},
 {"newsDate":"2022-07-17T00:00:00Z","newsFileName":"17Jul2022"},
 {"newsDate":"2022-07-10T00:00:00Z","newsFileName":"10Jul2022"},
 {"newsDate":"2022-07-03T00:00:00Z","newsFileName":"03Jul2022"},
