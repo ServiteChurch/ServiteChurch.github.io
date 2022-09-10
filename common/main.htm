@@ -294,8 +294,18 @@
                             <tr>
                                 <td>
                                     <div id="specialMessage">
-                                        <a href="../pages/150Anniv.htm"><img src="../images/150AnnivLogo.jpg" alt="150thAnniversary" /></a>
+                                        <img src="../images/qeII.jpg" align="middle" width="150" alt="In memory of Her Majesty Queen Elizabeth II. 1926-2022" />
                                     </div>
+                                    <span style="font-weight: bold;  font-size: xx-small";>
+                                        21st April 1926 - 8th September 2022
+                                    </span>
+                                        <span style="font-weight: bold;  font-size: smaller" ;>
+                                            <p>In loving memory of Her Majesty Queen Elizabeth II. </p>
+                                            <p>
+                                                Click <a href="https://rcdow.org.uk/cardinal/homilies/cardinals-homily-for-the-requiem-mass-for-her-majesty-the-queen/">here</a>
+                                                to view Cardinal Vincent Nichol's homily given at the Requiem Mass for Her Majesty Queen Elizabeth II in Westminster Cathedral on 9th September 2022.
+                                            </p>
+                                        </span>
                                 </td>
                             </tr>
                              <tr>
@@ -394,10 +404,10 @@
     $(function () {
         url = window.location.href;
         url = url.substring(url.lastIndexOf("/") + 1);
-        if (url == 'home.htm' || url == 'masstimes.htm?refresh=y' || url == 'masstimes.htm')
-        {
-            document.getElementById("specialMessage").innerHTML = '<img src="../images/SpecialMessage.jpg" />';
-        }
+        // if (url == 'home.htm' || url == 'masstimes.htm?refresh=y' || url == 'masstimes.htm')
+        // {
+        //     document.getElementById("specialMessage").innerHTML = '<img src="../images/SpecialMessage.jpg" />';
+       //  }
         
     }); 
 </script>

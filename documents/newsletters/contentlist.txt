@@ -1,7 +1,8 @@
-[{"newsDate":"2022-08-14T00:00:00Z","newsFileName":"14Aug2022"},
+[{"newsDate":"2022-09-11T00:00:00Z","newsFileName":"11Sep2022"},
+{"newsDate":"2022-09-04T00:00:00Z","newsFileName":"04Sep2022"},
+{"newsDate":"2022-08-28T00:00:00Z","newsFileName":"28Aug2022"},
+{"newsDate":"2022-08-14T00:00:00Z","newsFileName":"14Aug2022"},
 {"newsDate":"2022-08-07T00:00:00Z","newsFileName":"07Aug2022"},
 {"newsDate":"2022-07-31T00:00:00Z","newsFileName":"31Jul2022"},
 {"newsDate":"2022-07-24T00:00:00Z","newsFileName":"24Jul2022"},
-{"newsDate":"2022-07-17T00:00:00Z","newsFileName":"17Jul2022"},
-{"newsDate":"2022-07-10T00:00:00Z","newsFileName":"10Jul2022"},
-{"newsDate":"2022-07-03T00:00:00Z","newsFileName":"03Jul2022"}]
+{"newsDate":"2022-07-17T00:00:00Z","newsFileName":"17Jul2022"}]
