@@ -1,5 +1,6 @@
 <font color="red">Masses are taking place however fewer masses than normal will be celebrated and strict [social distancing](socialdistancing.htm) guidelines wil apply. See [here](masstimes.htm) for times and details.</font>
 
+#### Normal masses have resumed. Please note that times are slightly different to those prior to the pandemic. See [here](../pages/masstimes.htm?refresh=y) for times and details. This information is current as of 2nd October 2022.
 [![150th Anniversary](../images/150AnnivLogo.jpg)](../pages/150Anniv.htm)
 
 [![Fr Chris O'Brien](../images/frchris.jpg)](../documents/frchris/Annce%2010%20July%202020.pdf)  
